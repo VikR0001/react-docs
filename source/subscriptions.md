@@ -191,8 +191,9 @@ const withData = graphql(COMMENT_QUERY, {
     },
 });
 ```
+<h2 id="component">Calling The Subscription from Your Component</h2>
 
-and start the actual subscription by calling the `subscribeToNewComments` function with the subscription variables:
+Start the actual subscription by calling the `subscribeToNewComments` function with the subscription variables:
 
 ```js
 export class CommentsPage extends Component {
